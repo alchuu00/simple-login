@@ -21,17 +21,6 @@ const Login = () => {
     </IconButton>
   );
 
-//   const Line = () => (
-//     <hr
-//         style={{
-//             color: "#000000",
-//             backgroundColor: "#000000",
-//             height: 1,
-//             width: "100%"
-//         }}
-//     />
-// );
-
 const Line = styled.hr`
     color: #000000;
     backgroundColor: #000000;
@@ -83,7 +72,6 @@ const [showPassword, setShowPassword] = React.useState(false);
                   }
                 />
             </FormControl>
-
             <Button size="large" variant = "contained" sx={{borderRadius: "25px"}}>Log in</Button>
             <Typography>Forgotten your password?</Typography>
             <Stack direction="row" justifyContent="space-between">
@@ -109,7 +97,6 @@ const [showPassword, setShowPassword] = React.useState(false);
           </Stack>
         </Grid>
       </Grid>
-
   );
 };
 
